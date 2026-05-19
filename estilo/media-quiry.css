@@ -1,10 +1,9 @@
 @media (min-width: 768px) {
-    body {
-        background-color: red;
-    }
     .container {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
+        gap: 25px;
+        max-width: 1100px;
        /* grid-template-rows: repeat(2, 1fr);*/
         /* SUA PARTE */
     }
