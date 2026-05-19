@@ -1,0 +1,93 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* VARIÁVEIS */
+:root {
+    --purple: hsl(263, 55%, 52%);
+    --dark-blue: hsl(217, 19%, 35%);
+    --black: hsl(219, 29%, 14%);
+    --white: hsl(0, 0%, 100%);
+    --light-gray: hsl(0, 0%, 81%);
+    --bg: hsl(210, 46%, 95%);
+}
+
+/* BODY */
+body {
+    font-family: sans-serif;
+    background-color: var(--bg);
+    padding: 20px;
+}
+
+/* CONTAINER (MOBILE) */
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+/* CARD BASE */
+.card {
+    padding: 25px;
+    border-radius: 10px;
+    color: white;
+}
+
+/* USERS */
+.user {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.user img {
+    width: 35px;
+    border-radius: 50%;
+}
+
+.user h3 {
+    font-size: 14px;
+}
+
+.user span {
+    font-size: 12px;
+    opacity: 0.7;
+}
+
+/* TEXT */
+.card h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+/* CORES DOS CARDS */
+.card1 {
+    background-color: var(--purple);
+}
+
+.card2 {
+    background-color: var(--dark-blue);
+}
+
+.card3 {
+    background-color: var(--white);
+    color: black;
+}
+
+.card4 {
+    background-color: var(--white);
+    color: black;
+}
+
+.card5 {
+    background-color: var(--black);
+}
